@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #143c3c;
+    --white-color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* ======================================Common======================================== */
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    --min-width: 173px;
+    --height: 57px;
+    --font-size: 1.8rem;
+    --border-radius-btn: 40px;
+    display: inline-block;
+    text-align: center;
+    min-width: var(--min-width);
+    height: var(--height);
+    font-weight: 500;
+    font-size: var(--font-size);
+    color: var(--white-color);
+    background: var(--primary-color);
+    border-radius: var(--border-radius-btn);
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.container {
+    width: 1140px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
