@@ -341,3 +341,13 @@
     font-style: italic;
     font-display: swap;
 }
+
+/* Sonsie-one */
+@font-face {
+    font-family: "Sonsie One";
+    src: url("Sonsie-one/SonsieOne-Regular.woff2") format("woff2"),
+        url("Sonsie-one/SonsieOne-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
