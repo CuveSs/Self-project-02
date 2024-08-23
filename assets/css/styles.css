@@ -7,6 +7,7 @@
     --white-color: #fff;
     --text-color-primary: #575d5e;
     --text-color-black: #152427;
+    --text-color-light-gray: #7d8188;
     --bg-light-green: #e2eddf;
 }
 
@@ -448,7 +449,7 @@ a {
 
 .service__image {
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
     border-radius: 20px 20px 0 0;
 }
@@ -479,6 +480,184 @@ a {
     width: 268px;
     margin-top: 18px;
     color: #7d8188;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71; /* 171.429% */
+}
+/* ======================================Services-End======================================== */
+
+/* ======================================About_us-End======================================== */
+.about {
+    padding: 96px 0;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__media {
+    position: relative;
+    width: 591px;
+    height: 557px;
+}
+
+.about__image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 21px;
+    margin-top: 13px;
+}
+
+.about__img {
+    width: 284px;
+    height: 480px;
+    border-radius: 210px;
+    object-fit: cover;
+}
+
+.about__img:first-child {
+    margin-top: 77px;
+}
+
+.about__stats-table {
+    position: absolute;
+    right: -9px;
+    bottom: -8px;
+    width: 143px;
+    height: 144px;
+    padding: 19px 23px 11px;
+    border-radius: 8px;
+    background: var(--white-color);
+    box-shadow: 0px 7px 54px 0px rgba(154, 154, 154, 0.25);
+}
+
+.about__stats-title {
+    color: var(--text-color-black);
+    font-family: "Public Sans";
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.about__stats-desc {
+    margin-top: 6px;
+    color: var(--text-color-primary);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4; /* 140% */
+    opacity: 0.4;
+}
+
+.about__stats-num {
+    margin-top: 10px;
+    color: var(--text-color-black);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4; /* 140% */
+}
+
+.about__stats-loading-bar {
+    position: relative;
+    margin-top: 3px;
+    width: 96px;
+    height: 2px;
+    border-radius: 10px;
+    background: #eaeaea;
+}
+
+.about__stats-loading-bar::after {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    content: "";
+    width: 40px;
+    height: 2px;
+    border-radius: 10px;
+    background: #83a17d;
+}
+
+.about__stats-loading {
+    margin-top: 3px;
+    color: var(--text-color-black);
+    text-align: right;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4; /* 140% */
+}
+
+.about__stats-team-list {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__team {
+    color: var(--text-color-black);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4; /* 140% */
+}
+
+.about__team-members {
+    display: flex;
+    align-items: center;
+}
+
+.about__avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid var(--white-color);
+}
+
+.about__avatar:first-child {
+    margin-left: 0;
+}
+
+.about__content {
+    width: 42.54%;
+}
+
+.about__heading {
+    margin-top: 20px;
+}
+
+.about__desc {
+    margin-top: 11px;
+    color: var(--text-color-light-gray);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.62; /* 162.5% */
+}
+
+.about__content-row {
+    margin-top: 16px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #83a17d;
+}
+
+.about__content-num {
+    margin-right: 22px;
+    color: var(--text-color-black);
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.23; /* 123.81% */
+}
+
+.about__content-desc {
+    width: 364px;
+    color: var(--text-color-light-gray);
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.71; /* 171.429% */
