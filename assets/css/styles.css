@@ -859,8 +859,8 @@ a {
 }
 
 .video__direct-btn {
-    padding: 8px 12px;
-    margin-left: 14px;
+    margin-left: 26px;
+    margin-bottom: -5px;
 }
 
 .video__body {
