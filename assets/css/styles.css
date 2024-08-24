@@ -805,3 +805,86 @@ a {
         rgba(131, 161, 125, 0) 36.46%
     );
 }
+/* ======================================Process-End====================================== */
+
+/* ======================================Video-Start====================================== */
+.video {
+    margin: 74px 0 70px;
+    padding: 116px 0 63px;
+    background: var(--primary-color);
+}
+
+.video__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 93px;
+}
+
+.video__heading {
+    position: relative;
+    color: #e7f9f9;
+}
+
+.video__heading::after {
+    position: absolute;
+    bottom: 20px;
+    left: 294px;
+    display: inline-block;
+    content: "";
+    width: 66px;
+    height: 2px;
+    background: #83a17d;
+}
+
+.video__desc {
+    color: #6a8383;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.55; /* 155.556% */
+}
+
+.video__all-projects {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.video__direct-link {
+    color: var(--white-color);
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.video__direct-btn {
+    padding: 8px 12px;
+    margin-left: 14px;
+}
+
+.video__body {
+    position: relative;
+    margin-top: 65px;
+}
+
+.video__screen {
+    width: 100%;
+    height: 544px;
+    object-fit: cover;
+    border-radius: 22px;
+}
+
+/*  Video deco */
+.video__deco-star {
+    position: absolute;
+    top: -72px;
+    right: -50px;
+}
+
+.video__deco-line {
+    position: absolute;
+    top: -164px;
+    right: -62px;
+}
+/* ======================================Video-End====================================== */
